@@ -1,2 +1,2 @@
-# Web-Development-Lecture-Notes
-This is me learning Web Development from scratch :)
+# Hello-Everyone 🙂
+This is me learning Web Development from scratch 😎
