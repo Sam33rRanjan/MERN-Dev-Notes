@@ -131,6 +131,7 @@ ul,ol{
     width: 450px;
     height: 450px;
     border-radius: 20px;
+    display: block; /* to remove the extra space below the image */
 }
 
 .rightBox:hover{
