@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; /* Ensure the html and body elements take up the full height of the viewport */
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 30%;
+}
+
+header h1{
+    font-family: 'Happy Monkey';
+}
+
+header p{
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+}
+
+.container{
+    height: 80%;
+    width: 60%;
+    /* background-color: rgb(136, 133, 110); */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border-radius: 1rem;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+.card{
+    background-color: whitesmoke;
+    border: 1px solid rgb(211, 207, 174);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.card img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.card .text{
+    margin: 1rem;
+    font-family: Open Sans;
+    display: grid;
+    gap: 0.3rem;
+}
+
+.card .text p{
+    font-size: 13px;
+}
+
+.card .author{
+    margin: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .author img{
+    width: 30%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.card .author .author-info{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.card .author .nd{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.nd .name{
+    font-size: 12px;
+    font-family: 'Red Hat Display';
+    color: royalblue;
+}
+
+.nd .date{
+    font-size: 11px;
+    color: rgb(77, 71, 71);
+    font-family: 'Red Hat Display';
+}
+
+.category{
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    padding-bottom: 0.1rem;
+    border: 1px solid rgb(181, 178, 207);
+    border-radius: 0.3em;
+    color: rgb(43, 44, 46);
+    font-family: Open Sans;
+    font-size: 12px;
+}
