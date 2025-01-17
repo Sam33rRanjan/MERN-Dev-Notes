@@ -34,9 +34,9 @@
             /* animation-timing-function: ease-in; */
             /* animation-timing-function: cubic-bezier(0.075, 1.82, 0.165, 1); */
             animation-direction: alternate;
-            /* animation-fill-mode: forwards; */
-            /* animation-fill-mode: backwards; */
-            animation-fill-mode: both;
+            /* animation-fill-mode: forwards; /* This will keep the last frame of the animation if ends there */
+            /* animation-fill-mode: backwards; /* This will keep the first frame of the animation irrespective where it ends */
+            animation-fill-mode: both; /* This will keep the frame where animation animation*/
             animation-play-state: running;
 
             animation: 5s linear 1s infinite alternate both running RightMovement; /* This is shorthand property */
