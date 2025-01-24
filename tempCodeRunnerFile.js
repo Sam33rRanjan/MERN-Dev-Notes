@@ -1,5 +1,5 @@
-let surname = "Ali";
-for(let val of surname)
+console.log(fun22);
+var fun22 = function()
 {
-    console.log(val);
+    console.log("Hola");
 }
